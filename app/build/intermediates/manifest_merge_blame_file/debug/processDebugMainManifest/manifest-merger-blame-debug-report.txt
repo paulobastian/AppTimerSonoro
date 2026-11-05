@@ -1,0 +1,162 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sonoromove.timer"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:4:5-66
+11-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:4:22-63
+12    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+12-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:5:5-80
+12-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:5:22-77
+13    <uses-permission android:name="android.permission.WAKE_LOCK" />
+13-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:6:5-68
+13-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:6:22-65
+14    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+14-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:7:5-77
+14-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:7:22-74
+15    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+15-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:8:5-77
+15-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:8:22-74
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_SPECIAL_USE" />
+16-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:9:5-89
+16-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:9:22-86
+17
+18    <permission
+18-->[androidx.core:core:1.13.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+19        android:name="com.sonoromove.timer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.13.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.13.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.sonoromove.timer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.13.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.13.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:11:5-37:19
+25        android:allowBackup="true"
+25-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:12:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.13.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\3f4414e7258e46b34c51e68305e2ec6f\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+27        android:debuggable="true"
+28        android:extractNativeLibs="false"
+29        android:icon="@mipmap/ic_launcher"
+29-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:13:9-43
+30        android:label="Timer Plus"
+30-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:15:9-35
+31        android:roundIcon="@mipmap/ic_launcher"
+31-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:14:9-48
+32        android:supportsRtl="true"
+32-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:16:9-35
+33        android:theme="@style/Theme.TimerPlus" >
+33-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:17:9-47
+34        <activity
+34-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:19:9-27:20
+35            android:name="com.sonoromove.timer.MainActivity"
+35-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:20:13-41
+36            android:exported="true"
+36-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:21:13-36
+37            android:windowSoftInputMode="adjustResize" >
+37-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:22:13-55
+38            <intent-filter>
+38-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:23:13-26:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:24:17-69
+39-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:24:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:25:17-77
+41-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:25:27-74
+42            </intent-filter>
+43        </activity>
+44
+45        <service
+45-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:29:9-36:19
+46            android:name="com.sonoromove.timer.TimerService"
+46-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:30:13-41
+47            android:exported="false"
+47-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:31:13-37
+48            android:foregroundServiceType="specialUse" >
+48-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:32:13-55
+49            <property
+49-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:33:13-35:49
+50                android:name="android.app.PROPERTY_SPECIAL_USE_FOREGROUND_SERVICE_SUBTYPE"
+50-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:34:17-91
+51                android:value="workout_timer" />
+51-->D:\Projetos\App_SonoroMove\app\src\main\AndroidManifest.xml:35:17-46
+52        </service>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escorpius\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escorpius\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+56            android:authorities="com.sonoromove.timer.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escorpius\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escorpius\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escorpius\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escorpius\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Escorpius\.gradle\caches\8.9\transforms\e9a4de5f87829d8e56de87ff35dfed60\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\Escorpius\.gradle\caches\8.9\transforms\527ac84306fe6607d1ab2186d5efcc29\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:29:13-31:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\Escorpius\.gradle\caches\8.9\transforms\527ac84306fe6607d1ab2186d5efcc29\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:30:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.8.3] C:\Users\Escorpius\.gradle\caches\8.9\transforms\527ac84306fe6607d1ab2186d5efcc29\transformed\lifecycle-process-2.8.3\AndroidManifest.xml:31:17-49
+64            <meta-data
+64-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+65                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+65-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+66                android:value="androidx.startup" />
+66-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+67        </provider>
+68
+69        <receiver
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+70            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+71            android:directBootAware="false"
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+72            android:enabled="true"
+72-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+73            android:exported="true"
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+74            android:permission="android.permission.DUMP" >
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+75            <intent-filter>
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+76                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+77            </intent-filter>
+78            <intent-filter>
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+79                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+80            </intent-filter>
+81            <intent-filter>
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+82                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+83            </intent-filter>
+84            <intent-filter>
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+85                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\Escorpius\.gradle\caches\8.9\transforms\4d07dd122260385b5a0f7c79a656e780\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+86            </intent-filter>
+87        </receiver>
+88    </application>
+89
+90</manifest>

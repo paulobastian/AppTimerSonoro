@@ -1,0 +1,38 @@
+# Gradle / Android
+.gradle/
+.kotlin/
+build/
+**/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Segredos e assinatura
+*.keystore
+*.jks
+.env
+.env.*
+
+# Binários e pacotes gerados
+*.apk
+*.aab
+*.ipa
+*.zip
+
+# Node / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+
+# Projeto aninhado com repositório próprio
+TimerPlusExpo/
+
+# Sistema / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.log

@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.sonoromove.timer.app-debug-42:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.sonoromove.timer.app-main-44:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.sonoromove.timer.app-debug-42:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.sonoromove.timer.app-main-44:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.sonoromove.timer.app-debug-42:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.sonoromove.timer.app-main-44:/mipmap-anydpi-v26/ic_launcher.xml"
+    }
+]
